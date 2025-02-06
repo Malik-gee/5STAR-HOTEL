@@ -808,9 +808,12 @@ h4{
     gap: 50px;
 }
 .box-img{
-    width: 300%;
+    width: 350%;
+    height: 350px;
     position: relative;
-    left: -140px
+    right: 300px;
+    object-fit: cover;
+    background-size:cover;
 
 }
 
@@ -860,9 +863,8 @@ h4{
     display: flex;
     font-size: 20px;
     position: relative;
-    margin-left: 120px;
-    gap: 50px;
-    top: -40px;
+    gap: 100px;
+    top: -25px;
 }
 
 }
