@@ -656,14 +656,24 @@ h4{
 
     .booking from{
         grid-template-columns:1fr ;
-        padding: 0 30px;
+        position: relative;
+        bottom: 100px;
+        width: 200%;
+        left: -40px;
+        padding: 30px;
+
+
     }
+
+
 
    
 
     .about-left{
         grid-template-columns:1fr ;
         gap: 20px;
+        position: relative;
+        bottom: 125px;
 
     }
 
@@ -748,26 +758,6 @@ h4{
 
 }
 
-.rich{
-    font-size: 25px;
-    color:black;
-    position: relative;
-    bottom: 50px;
-    left: 270px;
-    display: flex;
-
-}
-
-.arrow{
-    font-size: 25px;
-    color:black;
-    position: relative;
-    bottom: 50px;
-    right: -150px;
-    display: flex;
-    gap: px;
-    bottom: 80px;
-}
 
 .top{
     margin-left: -90px;
@@ -793,6 +783,14 @@ h4{
     
 }
 
+.colour{
+    width: 100%;
+    position: relative;
+    right:50px;
+    margin: 50px;
+    top: -250px;
+}
+
 .pro{
     position: relative;
     left: 20px;
@@ -810,14 +808,15 @@ h4{
     gap: 50px;
 }
 .box-img{
-    width: 200%;
+    width: 300%;
     position: relative;
-    right:110px;    
+    left: -140px
+
 }
 
 .cod{
     position: relative;
-    right: 100px;
+    right: 130px;
     gap: 400px;
     white-space: nowrap;
     gap: 100px;
@@ -831,7 +830,7 @@ h4{
 
 .comit{
     position: relative;
-    right: 100px;
+    right: 130px;
     white-space: nowrap;
     gap: 50px;
 
@@ -840,7 +839,7 @@ h4{
 
 .boy{
     position: relative;
-    right: 100px;
+    right: 130px;
     white-space: nowrap;
     gap: 70px;
 }
@@ -855,6 +854,15 @@ h4{
 .new{
     margin-left: -20px;
     padding: 20px 50px;
+}
+
+.Blog-icon{
+    display: flex;
+    font-size: 20px;
+    position: relative;
+    margin-left: 120px;
+    gap: 50px;
+    top: -40px;
 }
 
 }
